@@ -9,11 +9,13 @@
 #define INC_TEMP_SENS_CONF_H_
 #include "gpio.h"
 #include "tim.h"
+#include "stm32g0xx_hal.h"
 
 #define DHT11_use 			0
 #define DHT22_use			0
 #define DS18B20_use			1
 #define DS18S20_use			0
+#define BME280_use			1
 #define Sens_Port			GPIOA
 #define Sens_Pin			GPIO_PIN_2
 #define DelayTIM				htim1

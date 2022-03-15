@@ -67,6 +67,10 @@ float Temperature = 0;
 float Humidity = 0;
 uint8_t Presence = 0;
 #endif
+#if BME280_use==1
+float Temperature, Pressure, Humidity;
+#endif
+
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
